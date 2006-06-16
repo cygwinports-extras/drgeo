@@ -1,0 +1,287 @@
+drgeo
+------------------------------------------
+Dr. Geo is a GTK interactive geometry software. It allows one to create
+geometric figure plus the interactive manipulation of such figure in
+respect with their geometric constraints. It is usable in teaching
+situation with students from primary or secondary level.
+
+Dr. Geo integrates advanced features as an integrated Scheme programming
+language to define scripts within a figure. The language is also used to
+define functionnaly interactive figure.
+
+
+Runtime requirements:
+  cygwin-1.5.18-1
+  gtk2-x11-runtime-2.6.10-1
+  libglade2-2.5.1-1
+  libguile12-1.6.7-4
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-1
+  gcc-core-3.4.4-1
+  intltool-0.33-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkgconfig-0.17.2-2
+  sed-4.1.4-1
+
+Canonical website:
+  http://www.ofset.org/drgeo
+
+Canonical download:
+  http://prdownloads.sourceforge.net/ofset/
+
+-------------------------------------------
+
+Build instructions:
+  unpack drgeo-1.1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./drgeo-1.1.0-X.sh all
+
+This will create:
+  /usr/src/drgeo-1.1.0-X-src.tar.bz2
+  /usr/src/drgeo-1.1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/drgeo.exe
+  /usr/bin/tm_drgeo
+  /usr/share/applications/drgeo.desktop
+  /usr/share/doc/Cygwin/drgeo-1.1.0.README
+  /usr/share/doc/drgeo-1.1.0/AUTHORS
+  /usr/share/doc/drgeo-1.1.0/ChangeLog
+  /usr/share/doc/drgeo-1.1.0/COPYING
+  /usr/share/doc/drgeo-1.1.0/INSTALL
+  /usr/share/doc/drgeo-1.1.0/NEWS
+  /usr/share/doc/drgeo-1.1.0/README
+  /usr/share/doc/drgeo-1.1.0/TODO
+  /usr/share/drgeo/encode/latin1.ps
+  /usr/share/drgeo/examples/figures/accel.big5.fgeo
+  /usr/share/drgeo/examples/figures/accel.fgeo
+  /usr/share/drgeo/examples/figures/angle-inscrit.fgeo
+  /usr/share/drgeo/examples/figures/baballe.fgeo
+  /usr/share/drgeo/examples/figures/braik_conic.fgeo
+  /usr/share/drgeo/examples/figures/cercle-inscrit.fgeo
+  /usr/share/drgeo/examples/figures/circle-locus.fgeo
+  /usr/share/drgeo/examples/figures/conics.fgeo
+  /usr/share/drgeo/examples/figures/duality.fgeo
+  /usr/share/drgeo/examples/figures/euler-line.fgeo
+  /usr/share/drgeo/examples/figures/fonctions_associees.fgeo
+  /usr/share/drgeo/examples/figures/lens.fgeo
+  /usr/share/drgeo/examples/figures/light6.fgeo
+  /usr/share/drgeo/examples/figures/mercedes.fgeo
+  /usr/share/drgeo/examples/figures/moyenne-prop.fgeo
+  /usr/share/drgeo/examples/figures/orthocenter-locus.fgeo
+  /usr/share/drgeo/examples/figures/orthocentre-symetique.fgeo
+  /usr/share/drgeo/examples/figures/parallelogramme.fgeo
+  /usr/share/drgeo/examples/figures/partage-segment.fgeo
+  /usr/share/drgeo/examples/figures/polygon-7.fgeo
+  /usr/share/drgeo/examples/figures/polygons.fgeo
+  /usr/share/drgeo/examples/figures/problem1.fgeo
+  /usr/share/drgeo/examples/figures/refraction.fgeo
+  /usr/share/drgeo/examples/figures/saliera.fgeo
+  /usr/share/drgeo/examples/figures/signed-distance.fgeo
+  /usr/share/drgeo/examples/figures/sinusoide.fgeo
+  /usr/share/drgeo/examples/figures/slope.fgeo
+  /usr/share/drgeo/examples/figures/steiner_conic.fgeo
+  /usr/share/drgeo/examples/figures/symmetry-axe-2.fgeo
+  /usr/share/drgeo/examples/figures/symmetry-center.fgeo
+  /usr/share/drgeo/examples/figures/triangle-scale.fgeo
+  /usr/share/drgeo/examples/figures/triangles-homothetiques.fgeo
+  /usr/share/drgeo/examples/figures/triangle_rectangle1.fgeo
+  /usr/share/drgeo/examples/figures/trigo1.fgeo
+  /usr/share/drgeo/examples/figures/varignon.fgeo
+  /usr/share/drgeo/examples/figures/wheel.fgeo
+  /usr/share/drgeo/examples/macros/bissectrice.mgeo
+  /usr/share/drgeo/examples/macros/centre1.mgeo
+  /usr/share/drgeo/examples/macros/orthocentre.mgeo
+  /usr/share/drgeo/examples/macros/pentagone.mgeo
+  /usr/share/drgeo/examples/macros/polygon-7.mgeo
+  /usr/share/drgeo/examples/macros/segment.mgeo
+  /usr/share/drgeo/examples/scheme/baravelle.scm
+  /usr/share/drgeo/examples/scheme/baum.scm
+  /usr/share/drgeo/examples/scheme/figure.scm
+  /usr/share/drgeo/examples/scheme/fractale.scm
+  /usr/share/drgeo/examples/scheme/koch.scm
+  /usr/share/drgeo/examples/scheme/pappo.scm
+  /usr/share/drgeo/examples/scheme/polygon.scm
+  /usr/share/drgeo/examples/scheme/polygon2.scm
+  /usr/share/drgeo/examples/scheme/premier.scm
+  /usr/share/drgeo/examples/scheme/spiral.scm
+  /usr/share/drgeo/examples/scheme/square.scm
+  /usr/share/drgeo/examples/scheme/steiner.scm
+  /usr/share/drgeo/examples/scheme/tilings.scm
+  /usr/share/drgeo/glade/angle.png
+  /usr/share/drgeo/glade/angle.xpm
+  /usr/share/drgeo/glade/axial_symetry.png
+  /usr/share/drgeo/glade/axial_symetry.xpm
+  /usr/share/drgeo/glade/build_macro.png
+  /usr/share/drgeo/glade/build_macro.xpm
+  /usr/share/drgeo/glade/central_symetry.png
+  /usr/share/drgeo/glade/central_symetry.xpm
+  /usr/share/drgeo/glade/circle.png
+  /usr/share/drgeo/glade/circle.xpm
+  /usr/share/drgeo/glade/circle_arc.png
+  /usr/share/drgeo/glade/circle_arc.xpm
+  /usr/share/drgeo/glade/color-black.xpm
+  /usr/share/drgeo/glade/color-blue.xpm
+  /usr/share/drgeo/glade/color-bordeaux.xpm
+  /usr/share/drgeo/glade/color-dark-blue.xpm
+  /usr/share/drgeo/glade/color-dark-green.xpm
+  /usr/share/drgeo/glade/color-dark-grey.xpm
+  /usr/share/drgeo/glade/color-green.xpm
+  /usr/share/drgeo/glade/color-grey.xpm
+  /usr/share/drgeo/glade/color-orange.xpm
+  /usr/share/drgeo/glade/color-red.xpm
+  /usr/share/drgeo/glade/color-white.xpm
+  /usr/share/drgeo/glade/color-yellow.xpm
+  /usr/share/drgeo/glade/coordinates.png
+  /usr/share/drgeo/glade/coordinates.xpm
+  /usr/share/drgeo/glade/cross.xpm
+  /usr/share/drgeo/glade/dashline.xpm
+  /usr/share/drgeo/glade/distance.png
+  /usr/share/drgeo/glade/distance.xpm
+  /usr/share/drgeo/glade/drgenius2.glade
+  /usr/share/drgeo/glade/drgenius_new_figure.xpm
+  /usr/share/drgeo/glade/drgeo.png
+  /usr/share/drgeo/glade/drgeo2.glade
+  /usr/share/drgeo/glade/drgeoMDI.glade
+  /usr/share/drgeo/glade/eraser.png
+  /usr/share/drgeo/glade/eraser.xpm
+  /usr/share/drgeo/glade/free_point.png
+  /usr/share/drgeo/glade/free_point.xpm
+  /usr/share/drgeo/glade/grid.png
+  /usr/share/drgeo/glade/half_line.png
+  /usr/share/drgeo/glade/half_line.xpm
+  /usr/share/drgeo/glade/homothetie.png
+  /usr/share/drgeo/glade/homothetie.xpm
+  /usr/share/drgeo/glade/intersection_point.png
+  /usr/share/drgeo/glade/intersection_point.xpm
+  /usr/share/drgeo/glade/largeline.xpm
+  /usr/share/drgeo/glade/line.png
+  /usr/share/drgeo/glade/line.xpm
+  /usr/share/drgeo/glade/line_menu.png
+  /usr/share/drgeo/glade/line_menu.xpm
+  /usr/share/drgeo/glade/load.xpm
+  /usr/share/drgeo/glade/locus.png
+  /usr/share/drgeo/glade/macro_menu.png
+  /usr/share/drgeo/glade/macro_menu.xpm
+  /usr/share/drgeo/glade/middle.png
+  /usr/share/drgeo/glade/middle.xpm
+  /usr/share/drgeo/glade/move.png
+  /usr/share/drgeo/glade/move.xpm
+  /usr/share/drgeo/glade/new_figure.xpm
+  /usr/share/drgeo/glade/normalline.xpm
+  /usr/share/drgeo/glade/numeric_menu.png
+  /usr/share/drgeo/glade/numeric_menu.xpm
+  /usr/share/drgeo/glade/parallel.png
+  /usr/share/drgeo/glade/parallel.xpm
+  /usr/share/drgeo/glade/perpendicular.png
+  /usr/share/drgeo/glade/perpendicular.xpm
+  /usr/share/drgeo/glade/point_coordinate.png
+  /usr/share/drgeo/glade/point_coordinate.xpm
+  /usr/share/drgeo/glade/point_menu.png
+  /usr/share/drgeo/glade/point_menu.xpm
+  /usr/share/drgeo/glade/polygon.png
+  /usr/share/drgeo/glade/polygon.xpm
+  /usr/share/drgeo/glade/preferences.xpm
+  /usr/share/drgeo/glade/property.png
+  /usr/share/drgeo/glade/property.xpm
+  /usr/share/drgeo/glade/quit.xpm
+  /usr/share/drgeo/glade/rename.png
+  /usr/share/drgeo/glade/rotation.png
+  /usr/share/drgeo/glade/rotation.xpm
+  /usr/share/drgeo/glade/round-empty.xpm
+  /usr/share/drgeo/glade/round.xpm
+  /usr/share/drgeo/glade/run_macro.png
+  /usr/share/drgeo/glade/run_macro.xpm
+  /usr/share/drgeo/glade/save.xpm
+  /usr/share/drgeo/glade/script.png
+  /usr/share/drgeo/glade/script.xpm
+  /usr/share/drgeo/glade/segment.png
+  /usr/share/drgeo/glade/segment.xpm
+  /usr/share/drgeo/glade/square-empty.xpm
+  /usr/share/drgeo/glade/square.xpm
+  /usr/share/drgeo/glade/styles.png
+  /usr/share/drgeo/glade/styles.xpm
+  /usr/share/drgeo/glade/tools_menu.png
+  /usr/share/drgeo/glade/tools_menu.xpm
+  /usr/share/drgeo/glade/transformation_menu.png
+  /usr/share/drgeo/glade/transformation_menu.xpm
+  /usr/share/drgeo/glade/translation.png
+  /usr/share/drgeo/glade/translation.xpm
+  /usr/share/drgeo/glade/triangle.xpm
+  /usr/share/drgeo/glade/vectrex.png
+  /usr/share/drgeo/glade/vectrex.xpm
+  /usr/share/drgeo/glade/widget-script.png
+  /usr/share/drgeo/glade/widget-script.xpm
+  /usr/share/drgeo/scm/drgeo_config.scm
+  /usr/share/drgeo/scm/drgeo_scm_interface.scm
+  /usr/share/drgeo/scm/drgeo_scm_interface_constant.scm
+  /usr/share/drgeo/scm/drgeo_scm_interface_constant_es.scm
+  /usr/share/drgeo/scm/drgeo_scm_interface_constant_fr.scm
+  /usr/share/drgeo/scm/drgeo_scm_interface_constant_nl.scm
+  /usr/share/drgeo/scm/drgeo_scm_interface_constant_sr.scm
+  /usr/share/drgeo/scm/preferences.scm
+  /usr/share/locale/az/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/ca/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/cs/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/da/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/de/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/el/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/es/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/eu/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/fr/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/ga/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/gl/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/gu/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/hi/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/hr/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/hu/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/it/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/ja/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/ml/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/mr/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/nb/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/ne/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/nl/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/no/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/pl/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/pt/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/ru/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/rw/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/sl/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/sq/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/sr/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/sv/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/uk/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/drgeo.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/drgeo.mo
+  /usr/share/pixmaps/drgeo-book.png
+  /usr/share/pixmaps/drgeo-file.png
+  /usr/share/pixmaps/ofset-logo.png
+  /usr/share/texmacs/TeXmacs/plugins/drgeo/progs/init-drgeo.scm
+
+------------------
+
+Port Notes:
+
+----- version 1.1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
