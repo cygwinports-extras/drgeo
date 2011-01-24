@@ -1,0 +1,15 @@
+inherit gnome2
+
+DESCRIPTION="Interactive geometry software"
+HOMEPAGE="http://www.ofset.org/drgeo"
+SRC_URI="mirror://sourceforge/ofset/${P}.tar.gz"
+
+PATCH_URI="
+	mirror://portage/sci-mathematics/${PN}/files/${P}-gcc45.patch
+	1.1.0-drgeo_xpm.patch
+	1.1.0-gmodule-export.patch
+	1.1.0-vpath.patch
+"
+
+# for libtool-2.x ?
+WANT_AUTOMAKE=1.9

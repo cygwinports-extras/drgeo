@@ -1,0 +1,13 @@
+dllexport and static don't mix
+
+--- origsrc/drgeo-1.1.0/drgenius_mdi.h	2005-07-14 17:07:59.000000000 -0500
++++ src/drgeo-1.1.0/drgenius_mdi.h	2011-01-23 21:44:51.299142900 -0600
+@@ -95,7 +95,7 @@ extern "C" {
+ /*********************************/
+ /* Handlers to the MDI interface */
+ /*********************************/
+-G_MODULE_EXPORT static void nothing_cb (GtkWidget * widget, gpointer data);
++G_MODULE_EXPORT void nothing_cb (GtkWidget * widget, gpointer data);
+ G_MODULE_EXPORT gboolean on_drgeoMain_delete_event (GtkWidget *widget, 
+ 						    GdkEvent *event, 
+ 						    gpointer user_data);

@@ -1,0 +1,11 @@
+--- origsrc/drgeo-1.1.0/geo/Makefile.am	2003-11-24 15:25:39.000000000 -0600
++++ src/drgeo-1.1.0/geo/Makefile.am	2011-01-23 21:43:01.406952000 -0600
+@@ -11,7 +11,7 @@ INCLUDES = \
+ 	-DDRGEO_HELPDIR=\""$(helpdir)"\"		\
+ 	-DDRGEO_GLADEDIR=\""$(gladedir)"\"		\
+ 	-DDRGEO_ENCODEDIR=\""$(encodedir)"\"		\
+-	-I$(includedir) 				\
++	-I$(top_srcdir) 				\
+ 	$(DRGEO_CFLAGS)				
+ 
+ noinst_LIBRARIES = libgeo.a

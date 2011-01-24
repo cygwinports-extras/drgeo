@@ -1,5 +1,5 @@
 category: Gnome Math
-requires: gtk2-x11-runtime libglade2 libguile12 xorg-x11-base
+requires: libgcc1 libglade2.0_0 libglib2.0_0 libgtk2.0_0 libguile17 libintl8 libpango1.0_0 libstdc++6 libxml2
 sdesc: "GNOME interactive geometry program"
 ldesc: "Dr. Geo is a GTK interactive geometry software. It allows one to
 create geometric figure plus the interactive manipulation of such figure
