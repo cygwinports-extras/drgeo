@@ -1,0 +1,21 @@
+inherit gnome2
+
+NAME="drgeo"
+VERSION=1.1.0
+RELEASE=2
+CATEGORY="Math"
+SUMMARY="GNOME interactive geometry program"
+DESCRIPTION="Dr. Geo is a GTK interactive geometry software. It allows one to
+create geometric figure plus the interactive manipulation of such figure in
+respect with their geometric constraints. It is usable in teaching situation
+with students from primary or secondary level."
+HOMEPAGE="http://www.ofset.org/drgeo"
+SRC_URI="mirror://sourceforge/ofset/${NAME}-${VERSION}.tar.gz"
+
+PATCH_URI="
+	mirror://portage/sci-mathematics/drgeo/files/drgeo-1.1.0-gcc45.patch
+	1.1.0-drgeo_xpm.patch
+	1.1.0-gmodule-export.patch
+	1.1.0-vpath.patch
+	1.1.0-guile-cflags.patch
+"
